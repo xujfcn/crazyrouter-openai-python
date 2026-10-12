@@ -6,7 +6,7 @@ client = OpenAI(
     base_url="https://crazyrouter.com/v1"
 )
 
-models = ["gpt-4o", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
+models = ["gpt-4o", "claude-sonnet-4-6", "gemini-2.5-pro"]
 prompt = "Explain quantum computing in one sentence."
 
 for model in models:

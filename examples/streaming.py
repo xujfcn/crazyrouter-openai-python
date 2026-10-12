@@ -7,7 +7,7 @@ client = OpenAI(
 )
 
 stream = client.chat.completions.create(
-    model="claude-sonnet-4-20250514",
+    model="claude-sonnet-4-6",
     messages=[{"role": "user", "content": "Write a short poem about APIs"}],
     stream=True
 )
